@@ -3,22 +3,80 @@ TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
 
+header {
+  display: flex;
+}
+header nav a {
+  padding: 15px;
+}
 
+header div {
+  margin: 20px;
+}
+
+nav {
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
 .card-container {
   display: flex;
+
+}
+
+.card-container div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.card img {
+  justify-content: center;
+  width: 60%;
+  margin-left: 48px;
 }
 
 .features {
   display: flex;
+
 }
 
-header {
+.features div {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  margin:30px;
 }
 
+.feature-item p {
+  text-align: center;
+}
 
+.feature-icon {
+  display: flex;
+  justify-content: center;
+}
 
+.footer-content  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: left;
+}
+
+.footer-section a {
+  margin: 5px;
+}
+
+.social-links a {
+  margin: 5px ;
+}
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
